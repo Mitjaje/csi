@@ -23,6 +23,9 @@ else :
     print ("Krivca ni med osumljenci..")
 '''
 
+###############Resitev z uporabo dictionary########################
+
+
 barva_las = {
     "crna":"CCAGCAATCGC",
     "rjava":"GCCAGTGCCG",
@@ -47,10 +50,6 @@ rasa = {
     "crnec":"CGACTACAG",
     "azijec":"CGCGGGCCG"
 }
-
-ziga = [spol["moski"],rasa["belec"], barva_las["korencek"], barva_oci["rjava"], oblika_obraza["okrogel"]]
-matej = [ spol["moski"], rasa["belec"], barva_las["crna"], barva_oci["modra"], oblika_obraza["ovalen"]]
-miha = [ spol["moski"], rasa["belec"], barva_las["rjava"], barva_oci["zelena"], oblika_obraza["kvadraten"]]
 
 dna = open("dna.txt", "r").read()
 
